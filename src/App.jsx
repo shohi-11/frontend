@@ -2,6 +2,7 @@ import React, { useState, createContext } from 'react';
 import axios from 'axios';
 import './App.css'
 import { Routes, Route, useNavigate } from 'react-router-dom';
+import Card from "./components/Cards/Card.jsx";
 import Navbar from './components/Navbar/Navbar';
 import All from './pages/All/All';
 import Mens from './pages/Mens/Mens';
